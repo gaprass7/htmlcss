@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Project -M.Gapras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Logo</h1>
+      <nav id="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <a href="">Member</a>
+        <a href="">Login</a>
+      </nav>
+    </header>
+
+    <section class="landing">
+      <div class="conten">
+        <h1>Website Tampilan Home</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+          accusamus voluptatum aspernatur repellat, quo sed eligendi illum
+          delectus, ea iure exercitationem qui modi earum doloremque eaque
+          mollitia beatae dolor reprehenderit?
+        </p>
+        <div>
+          <a href="" class="btn btn-key">More Info</a>
+          <a href="" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="gambar">
+        <img src="images/landing.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about">
+      <div>
+        <img src="images/about.png" alt="" />
+      </div>
+      <div>
+        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora
+          nobis laborum amet aut. Eos minus consequatur laudantium porro enim
+          recusandae possimus. Minima porro animi voluptatibus cupiditate?
+          Voluptatum, consectetur blanditiis.
+        </p>
+        <div id="about-ex">
+          <div>
+            <h1>100+</h1>
+            <div></div>
+            <p>Experts</p>
+          </div>
+          <div>
+            <h1>300+</h1>
+            <div></div>
+            <p>Clients</p>
+          </div>
+          <div>
+            <h1>500+</h1>
+            <div></div>
+            <p>Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service">
+      <div class="service-head">
+        <div>
+          <h1>Our Services</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <button class="btn">Contact Us</button>
+        </div>
+      </div>
+      <div class="service-detail">
+        <div class="service-detail-item">
+          <img src="images/service1.png" alt="" />
+          <h1>Web Application</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            deleniti possimus accusantium blanditiis minima animi libero unde
+            quod dolores optio aperiam facilis corporis iusto, placeat rem illo
+            explicabo nesciunt voluptates?
+          </p>
+        </div>
+        <div class="service-detail-item">
+          <img src="images/service3.png" alt="" />
+          <h1>UI/UX Design</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            deleniti possimus accusantium blanditiis minima animi libero unde
+            quod dolores optio aperiam facilis corporis iusto, placeat rem illo
+            explicabo nesciunt voluptates?
+          </p>
+        </div>
+        <div class="service-detail-item">
+          <img src="images/service2.png" alt="" />
+          <h1>Mobile Application</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            deleniti possimus accusantium blanditiis minima animi libero unde
+            quod dolores optio aperiam facilis corporis iusto, placeat rem illo
+            explicabo nesciunt voluptates?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactus">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="contactus-konten">
+        <form onsubmit="formcoba(event)" action="">
+          <h1>Tell us Your problem</h1>
+          <div class="form-group">
+            <div id="input-name" class="input-form">
+              <label for="nama">Name</label>
+              <input type="text" name="nama" placeholder="Masukkan Nama" />
+            </div>
+            <div id="input-username" class="input-form">
+              <label for="">Username</label>
+              <input type="text" placeholder="Masukkan Username" />
+            </div>
+            <div id="input-email" class="input-form">
+              <label for="">Email</label>
+              <input type="email" placeholder="Masukkan Email" />
+            </div>
+            <div id="input-phone" class="input-form">
+              <label for="">Phone Number</label>
+              <input type="tel" placeholder="Masukkan No Hp" />
+            </div>
+            <div id="input-message" class="input-form">
+              <label for="">Message</label>
+              <input type="text" placeholder="Masukkan Pesan Anda" />
+            </div>
+          </div>
+          <button class="btn">Kirim</button>
+        </form>
+        <div>
+          <h1>Our Location</h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.98363572579!2d110.33982524194785!3d-7.8031639725682655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1676086569862!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h1>Projectku</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eligendi
+          dolor, tempore voluptatum fugiat provident iusto at quae nostrum a.
+          Repellat facilis iste ipsa dolorum ab aspernatur? Doloribus, possimus
+          sit.
+        </p>
+      </div>
+      <div>
+        <img class="sosial-icon" src="images/Facebook.svg" alt="" />
+        <img class="sosial-icon" src="images/Twitter.svg" alt="" />
+        <img class="sosial-icon" src="images/Instagram.svg" alt="" />
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
